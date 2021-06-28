@@ -1,19 +1,24 @@
 # Redux Basics 
 
 ### Project Setup commands 
-
-> npm init 
-
-> npm install -D webpack webpack-cli webpack-dev-server
-
-> touch webpack.config.js 
-
-> And create scr/index.js & dist/index.html files
-
->git init for github initialization 
-
-> npm install redux@4.0
-
+```
+ npm init 
+```
+```
+ npm install -D webpack webpack-cli webpack-dev-server
+```
+```
+ touch webpack.config.js 
+```
+```
+ And create scr/index.js & dist/index.html files
+```
+```
+git init for github initialization 
+```
+```
+ npm install redux@4.0
+```
 <hr/> 
 
 ### content for webpack.config.js
