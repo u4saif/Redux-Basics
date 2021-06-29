@@ -17,7 +17,7 @@
 git init for github initialization 
 ```
 ```
- npm install redux@4.0
+ npm install redux@4.0 redux-devtools-extension
 ```
 <hr/> 
 
@@ -39,4 +39,10 @@ module.exports = {
   mode: "development"
 };
 ````
+
+### Enable the devtool extension as below
+```
+import {devToolsEnhancer} from 'redux-devtools-extension';
+const store = createStore(reducer, devToolsEnhancer({trace:true}));
+```
 
