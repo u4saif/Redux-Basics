@@ -1,4 +1,4 @@
-# Redux Basics 
+# Redux Basics (withour using ReduxToolKit)
 
 ### Project Setup commands 
 ```
