@@ -46,3 +46,6 @@ import {devToolsEnhancer} from 'redux-devtools-extension';
 const store = createStore(reducer, devToolsEnhancer({trace:true}));
 ```
 
+### Project ScreenShots 
+![ss](https://raw.githubusercontent.com/u4saif/Redux-Basics/master/screenShot/1.png)
+
