@@ -19,6 +19,10 @@ git init for github initialization
 ```
  npm install redux@4.0 redux-devtools-extension
 ```
+in package.json file
+```
+ "start": "webpack-dev-server --config ./webpack.config.js"
+```
 <hr/> 
 
 ### content for webpack.config.js
